@@ -1,0 +1,33 @@
+{
+  "name": "eslint-config-earnest",
+  "version": "1.0.0",
+  "description": "Earnest's ESLint config, following our style guide",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/meetearnest/eslint-config-earnest"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "config",
+    "earnest",
+    "javascript",
+    "styleguide"
+  ],
+  "author": "Earnest, Inc (https://www.meetearnest.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/meetearnest/eslint-config-earnest/issues"
+  },
+  "homepage": "https://github.com/meetearnest/eslint-config-earnest",
+  "devDependencies": {
+    "eslint": "^1.10.2"
+  },
+  "peerDependencies": {
+    "eslint": "^1.10.2"
+  }
+}
