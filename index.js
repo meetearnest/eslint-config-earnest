@@ -6,6 +6,16 @@ module.exports = {
 
   "ecmaFeatures": {
     "arrowFunctions": true,
+    "binaryLiterals": true,
+    "blockBindings": true,
+    "classes": true,
+    "generators": true,
+    "objectLiteralComputedProperties": true,
+    "objectLiteralDuplicateProperties": false,
+    "objectLiteralShorthandMethods": false,
+    "objectLiteralShorthandProperties": true,
+    "octalLiterals": true,
+    "spread": true,
     "templateStrings": true
   },
 
