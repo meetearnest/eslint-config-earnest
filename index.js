@@ -33,6 +33,7 @@ module.exports = {
     "no-use-before-define": 0,
     "no-undef": 2,
     "no-delete-var": 2,
+    "one-var": [2, "never"],
 
 /**
  * Possible errors
