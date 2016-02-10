@@ -9,6 +9,7 @@ module.exports = {
     "binaryLiterals": true,
     "blockBindings": true,
     "classes": true,
+    "forOf": true, // enable for-of loops
     "generators": true,
     "objectLiteralComputedProperties": true,
     "objectLiteralDuplicateProperties": false,
