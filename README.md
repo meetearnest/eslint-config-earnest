@@ -7,19 +7,19 @@ If you are looking for an ES7 version, look [here](https://github.com/meetearnes
 
 1. Install the following `"devDependencies"` in your repo:
 
-    `npm i --save-dev @earnest/eslint-config-earnest`
+    `npm i --save-dev @earnest/eslint-config@latest`
 
 2. Add a root level `.eslintrc` that references this package
 
     ```
-    echo '{ "extends": "@earnest/eslint-config-earnest" }' > .eslintrc
+    echo '{ "extends": "@earnest/eslint-config" }' > .eslintrc
     ```
 
 3. Add another `.eslintrc` to your `test` folder that supports mocha
   
     ```
     npm install eslint-plugin-mocha --save-dev
-    echo '{ "extends": "@earnest/eslint-config-earnest/mocha" }' > test/.eslintrc
+    echo '{ "extends": "@earnest/eslint-config/mocha" }' > test/.eslintrc
     ```
     
 4. (Recommended) Add the following entries to your `package.json` for simplified CLI access to linting:
