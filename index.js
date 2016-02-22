@@ -70,7 +70,7 @@ module.exports = {
  * Best practices
  */
     "no-extra-boolean-cast": 2,
-    "consistent-return": 2,
+    "consistent-return": 0,
     "curly": [2, "multi-line"],
     "default-case": 2,
     "dot-notation": [2, {
@@ -161,15 +161,13 @@ module.exports = {
       "before": false,
       "after": true
     }],
-    "space-before-keywords": [2, "always"],
-    "space-after-keywords": 2,
+    "keyword-spacing": 2,
     "space-before-blocks": 2,
     "space-before-function-paren": [2, {
       "anonymous": "always",
       "named": "never"
     }],
     "space-infix-ops": 2,
-    "space-return-throw-case": 2,
     "spaced-comment": 2,
     "no-multi-spaces": 0,
     "max-len": [2, 100, 2, {

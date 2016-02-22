@@ -25,9 +25,9 @@
   },
   "homepage": "https://github.com/meetearnest/eslint-config-earnest",
   "devDependencies": {
-    "eslint": "^1.10.2"
+    "eslint": "^2.1.0"
   },
   "peerDependencies": {
-    "eslint": "^1.10.2"
+    "eslint": "^2.1.0"
   }
 }
