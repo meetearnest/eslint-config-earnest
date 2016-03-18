@@ -1,23 +1,14 @@
 module.exports = {
   "env": {
     "browser": true,
-    "node": true
+    "node": true,
+    "es6": true
   },
 
   "ecmaFeatures": {
-    "arrowFunctions": true,
-    "binaryLiterals": true,
-    "blockBindings": true,
-    "classes": true,
-    "forOf": true, // enable for-of loops
-    "generators": true,
-    "objectLiteralComputedProperties": true,
     "objectLiteralDuplicateProperties": false,
     "objectLiteralShorthandMethods": false,
-    "objectLiteralShorthandProperties": true,
-    "octalLiterals": true,
-    "spread": true,
-    "templateStrings": true
+    "spread": true
   },
 
   "rules": {
@@ -50,7 +41,6 @@ module.exports = {
     "no-empty-character-class": 2,
     "no-empty": 2,
     "no-ex-assign": 2,
-    "no-extra-boolean-cast": 0,
     "no-extra-semi": 2,
     "no-func-assign": 2,
     "no-inner-declarations": 2,
@@ -149,7 +139,6 @@ module.exports = {
     }],
     "no-unneeded-ternary": 2,
     "no-nested-ternary": 2,
-    "no-new-object": 2,
     "no-spaced-func": 2,
     "no-trailing-spaces": 2,
     "no-extra-parens": 0,
@@ -162,7 +151,6 @@ module.exports = {
       "after": true
     }],
     "keyword-spacing": 2,
-    "space-before-blocks": 2,
     "space-before-function-paren": [2, {
       "anonymous": "always",
       "named": "never"
