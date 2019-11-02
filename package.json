@@ -25,10 +25,10 @@
   },
   "homepage": "https://github.com/meetearnest/eslint-config-earnest",
   "devDependencies": {
-    "eslint": "^2.1.0"
+    "eslint": "^6.6.0"
   },
   "peerDependencies": {
-    "eslint": "^2.1.0"
+    "eslint": "^6.6.0"
   },
   "files": [
     "index.js",
