@@ -29,7 +29,7 @@ module.exports = {
 /**
  * Possible errors
  */
-    "comma-dangle": [2, "never"],
+    "comma-dangle": [2, "always-multiline"],
     "no-cond-assign": [2, "always"],
     "no-console": 1,
     "no-constant-condition": 2,
@@ -108,7 +108,7 @@ module.exports = {
     "consistent-this": [2, "self"],
     "space-unary-ops": [1, {"words": true, "nonwords": false}],
     "space-in-parens": [2, "never"],
-    "object-curly-spacing": [2, "never"],
+    "object-curly-spacing": [2, "always"],
     "space-before-blocks": [2, "always"],
     "array-bracket-spacing": [2, "never"],
     "indent": [2, 2, {"SwitchCase": 1}],
@@ -151,7 +151,7 @@ module.exports = {
     }],
     "keyword-spacing": 2,
     "space-before-function-paren": [2, {
-      "anonymous": "always",
+      "anonymous": "never",
       "named": "never"
     }],
     "space-infix-ops": 2,
