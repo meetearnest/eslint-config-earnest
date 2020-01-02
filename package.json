@@ -1,6 +1,6 @@
 {
   "name": "@earnest/eslint-config",
-  "version": "3.1.1",
+  "version": "3.0.1",
   "description": "Earnest's ESLint config, following our style guide",
   "main": "index.js",
   "scripts": {
@@ -33,5 +33,8 @@
   "files": [
     "index.js",
     "mocha.js"
-  ]
+  ],
+  "dependencies": {
+    "autopublish": "0.0.8"
+  }
 }
