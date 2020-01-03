@@ -5,9 +5,7 @@ COPY .npmrc .npmrc
 COPY package.json package.json
 COPY . .  
 RUN npm install
-RUN npm install autopublish
-RUN ls -la
-RUN ./node_modules/.bin/autopublish .
+RUN npm publish
 RUN rm -f .npmrc
 
 CMD npm start
