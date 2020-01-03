@@ -33,8 +33,5 @@
   "files": [
     "index.js",
     "mocha.js"
-  ],
-  "dependencies": {
-    "autopublish": "0.0.8"
-  }
+  ]
 }
